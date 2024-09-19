@@ -1,0 +1,109 @@
+:root {
+    --purple: #C395FF;
+    --hoverpurple: #8E6CB9;
+    --grey: #D7D7D7;
+    --hovergrey: #898989;
+    --white: #FFFFFF;
+  }
+  
+  body {
+    background-color: var(--white);
+}
+  
+  h2 { border-bottom: 2px solid var(); }
+  
+  .container {
+    color: var(--blue);
+    background-color: var(--white);
+    padding: 15px;
+  }
+  
+  #button1 {
+    background-color: var(--grey);
+    border-radius: 4px;
+    padding: 5px;
+  }
+
+  #button1:hover {
+    background-color: var(--hovergrey);
+    border-radius: 4px;
+    padding: 5px;
+  }
+
+  #button2:hover {
+    background-color: var(--hoverpurple);
+    border-radius: 4px;
+    padding: 5px;
+  }
+
+
+
+  /* JAVASCRIPT ALERT BUTTON */
+
+#myModal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 40px;
+}
+
+/* Modal content */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%;
+}
+
+/* Close button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  padding-right: 5%;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modalallow {
+  color: white;
+  background-color: #1C73E8;
+  border: 1cm;
+  border-radius: 0%;
+  height: 30px;
+  width: 60px;
+  margin-right: 4%;
+}
+
+.modaldeny {
+  color: #1C73E8;
+  background-color: #e0dede;
+  border: 1cm;
+  border-radius: 0%;
+  height: 30px;
+  width: 60px;
+  
+}
+
+.modalbuttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 12%;
+}
+
+

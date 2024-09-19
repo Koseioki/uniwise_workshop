@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css.css">
+
+    <title>Document</title>
+
+</head>
+<body>
+
+    <button id="button1" type="button">Cancel</button>
+    <button id="button2" type="button">Confirm</button>
+
+    <!-- / Alert message -->
+    <div id="myModal" class="modal" aria-hidden="true" role="dialog">
+    <div class="modal-content">
+      <!-- <span class="close" onclick="closeModal()">&times;</span> -->
+       <h2>Very very good question</h2>
+      <p>Kosei like banana ya?</p>
+      <div class="modalbuttons">
+      <!-- <button class="modalallow" onclick="allowAction()">Allow</button> -->
+      <!-- <button class="modaldeny" onclick="denyAction()">Deny</button> -->
+      <button id="button1" type="button" onclick="closeModal()">Cancel</button>
+      <button id="button2" type="button" onclick="closeModal()">Confirm</button>
+    </div>
+    </div>
+    
+    <script src="/js.js"></script>
+
+</body>
+</html>
